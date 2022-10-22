@@ -26,5 +26,5 @@ class Config(object):
     CHUNK_SIZE = 128
 
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Aadhi:42426840@cluster0.jqzpafx.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://jvxgctfh:1Jf49IZA-vGumNNojNaLeOHCnMC6yfRn@tyke.db.elephantsql.com/jvxgctfh")
 
